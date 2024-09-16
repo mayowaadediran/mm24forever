@@ -16,7 +16,7 @@ const HomePage = () => {
 
 
   return (
-    <div className="min-h-vh pt-5 pb-20">
+    <div className="min-h-screen pt-5 md:pt-20 pb-20 lg:flex lg:justify-between container">
       <motion.div
         initial={{ opacity: '0' }}
         animate={isInView ? {
@@ -26,7 +26,9 @@ const HomePage = () => {
             staggerChildren: 1
           }
         } : {}}
-        className='mb-10' ref={ref}>
+        className='mb-10 flex-col lg:content-center lg:w-[50%]'
+        ref={ref}
+      >
         <motion.div
           className='text-center'
           initial={{ opacity: '0' }}
@@ -51,19 +53,21 @@ const HomePage = () => {
           <Link href={"gifts"} className='font-montaga text-primary underline text-x'>GIFTS</Link>
         </div>
       </motion.div>
+      <div className='flex-row lg:content-center lg:pl-10 lg:w-[50%]'>
+        <div>
 
-      <div className='flex justify-center'>
-        <div className=''>
           <Image
             src={HomeImage}
             style={{
               borderRadius: "10px",
-              maxWidth: "350px",
-              height: "auto"
+              width: "100%",
+              height: '100%',
+              objectFit: "cover"
             }}
             alt=''
           />
         </div>
+
       </div>
     </div>
   )

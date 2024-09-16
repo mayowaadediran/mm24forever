@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { motion } from "framer-motion";
 import { navLinks } from '@/constants';
 import Link from 'next/link';
+import NavLink from './nav-link';
 
 
 
@@ -77,6 +78,7 @@ const Nav = () => {
 
   return (
     <nav className='container pt-3'>
+
       <div className='h-full flex justify-between items-center'>
         <Image
           src={Logo}
@@ -85,8 +87,12 @@ const Nav = () => {
             maxWidth: "50px"
           }}
         />
-
-        <div className=''>
+        <div className='hidden md:flex gap-8 lg:gap-10'>
+          {navLinks.map((link) => (
+            <NavLink link={link} />
+          ))}
+        </div>
+        <div className='md:hidden'>
           <button
             className="w-10 h-8 flex flex-col justify-between z-50 relative"
             onClick={() => setOpen((prev) => !prev)}
