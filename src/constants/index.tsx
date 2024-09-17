@@ -23,7 +23,7 @@ export const navLinks = [
     title: "Registry"
   },
   {
-    url: "/registry",
+    url: "/rsvp",
     title: "RSVP"
   }
 ]

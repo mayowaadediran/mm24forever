@@ -53,13 +53,14 @@ const HomePage = () => {
           <Link href={"gifts"} className='font-montaga text-primary underline text-x'>GIFTS</Link>
         </div>
       </motion.div>
-      <div className='flex-row lg:content-center lg:pl-10 lg:w-[50%]'>
-        <div>
+      <div className='lg:pl-10 lg:w-[50%] flex justify-center'>
+        <div className='lg:w-[100%] xl:w-[70%]'>
 
           <Image
             src={HomeImage}
             style={{
               borderRadius: "10px",
+              verticalAlign: "middle",
               width: "100%",
               height: '100%',
               objectFit: "cover"
