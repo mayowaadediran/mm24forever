@@ -88,8 +88,8 @@ const Nav = () => {
           }}
         />
         <div className='hidden md:flex gap-8 lg:gap-10'>
-          {navLinks.map((link) => (
-            <NavLink link={link} />
+          {navLinks.map((link, i) => (
+            <NavLink link={link} key={i} />
           ))}
         </div>
         <div className='md:hidden'>

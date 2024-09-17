@@ -1,8 +1,8 @@
 import React from 'react'
 
-type Props = {}
 
-const index = (props: Props) => {
+
+const OurStory = () => {
   return (
     <div>
       <div>
@@ -12,4 +12,4 @@ const index = (props: Props) => {
   )
 }
 
-export default index
+export default OurStory
