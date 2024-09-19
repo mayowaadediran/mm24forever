@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Montaga } from "next/font/google";
 import "./globals.css";
+import Nav from "@/components/layout/nav";
 // import Nav from "@/layout/nav";
 
 const montaga = Montaga({
@@ -33,8 +34,8 @@ export default function RootLayout({
       <body
         className={`${garait.variable} ${montaga.variable} antialiased`}
       >
-        <main className="bg-purple-bg min-h-svh">
-          {/* <Nav /> */}
+        <main className="relative bg-purple-bg min-h-svh min-w-full">
+          <Nav />
           {children}
         </main>
       </body>
