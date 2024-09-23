@@ -4,7 +4,6 @@ import { renderer } from '@/components/counter/counter';
 import Image from 'next/image';
 import Countdown from 'react-countdown';
 import HomeImage from './../../../public/assets/img/9S2A2665-Recovered.jpg'
-import Link from 'next/link';
 import { useInView, motion } from 'framer-motion';
 import { useRef } from 'react';
 
@@ -13,7 +12,6 @@ const HomePage = () => {
 
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true });
-
 
   return (
     <div className="min-h-screen pt-4 md:pt-4 pb-20 md:pb-10 lg:flex lg:justify-between container">
@@ -48,10 +46,10 @@ const HomePage = () => {
             intervalDelay={0}
           />
         </motion.div>
-        <div className='flex gap-3 justify-between max-w-[20%] my-0 mx-auto'>
+        {/* <div className='flex gap-3 justify-between max-w-[20%] my-0 mx-auto'>
           <Link href={"rsvp"} className='font-montaga text-primary underline text-x'>RSVP</Link>
           <Link href={"gifts"} className='font-montaga text-primary underline text-x'>GIFTS</Link>
-        </div>
+        </div> */}
       </motion.div>
       <div className='lg:w-[50%] flex justify-center items-center'>
         <motion.div className='lg:w-[600px] lg:h-[600px]'
