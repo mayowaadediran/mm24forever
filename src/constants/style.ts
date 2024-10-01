@@ -25,4 +25,9 @@ export const layout = {
     sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
 };
 
+
+export const text = {
+    h1Sans: `font-sans text-4xl text-primary`
+}
+
 export default styles;
