@@ -14,8 +14,8 @@ interface ButtonProps {
 const Button = ({ onClick, children }: ButtonProps) => {
   return (
     <button
-      onClick={onClick} role='button'
-      className='bg-primary text-white p-2 font-montaga text-[12px]'
+      onClick={onClick}
+      className='text-white p-2 font-montaga text-[12px] border'
 
     >
       {children}
