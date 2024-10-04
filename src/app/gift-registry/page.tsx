@@ -1,13 +1,10 @@
 "use client"
 
 import Button from '@/components/ui/button'
-import { styles } from '@/constants'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import HomeImage from '../../../public/assets/img/9S2A2328-Recovered.jpg'
-
-const giftCardStyles = "mb-10 w-full bg-primary/25 p-10"
 
 
 const GiftRegistry = () => {
