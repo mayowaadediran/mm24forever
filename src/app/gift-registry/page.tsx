@@ -5,21 +5,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import HomeImage from '../../../public/assets/img/9S2A2328-Recovered.jpg'
+import PageHead from '@/components/page-head'
 
 
 const GiftRegistry = () => {
   return (
     <div className="min-h-screen container">
-      <div className={`full md:w-[70%] my-0 mx-auto pt-20 pb-10 lg:pt-32 lg:pb-24`}>
-        <h1 className={`font-sans text-3xl lg:text-5xl font-bold text-primary uppercase text-center`}>
-          Gifts/Registry
-        </h1>
-        <div className='text-center mt-10 lg:w-[70%] my-0 mx-auto'>
-          <h2 className={`font-montaga text-base font-medium lg:text-lg text-primary`}>
-            We&apos;re so thankful that you were all able to make it to our big day. The greatest gift to us is you being there on our special day.
-          </h2>
-        </div>
-      </div>
+      <PageHead
+        title='Gifts/Registry'
+        description='We&apos;re so thankful that you were all able to make it to our big day. The greatest gift to us is you being there on our special day.'
+      />
       <div className='flex flex-col lg:flex-row w-full pb-9'>
         <div className='w-[80%] lg:w-[40%] my-0 mx-auto flex-col content-center z-20'>
           <div className={`-mb-16 lg:-mb-0 lg:-mr-16 bg-primary/70 py-5 px-4 md:py-7 md:px-6 rounded-md`}>
