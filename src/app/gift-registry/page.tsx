@@ -33,9 +33,9 @@ const GiftRegistry = () => {
                 If you would like, a contribution to our honeymoon fund would be very much appreciated!
               </p>
               <ul className={`font-montaga text-white text-[12px] md:text-base mb-6`}>
-                <li>Bank: GTBank</li>
-                <li>Account Name: Mayowa Adediran</li>
-                <li>Account Number: 0009854049</li>
+                <li><span className='font-bold'>Bank:</span> GTBank</li>
+                <li><span className='font-bold'>Account Name:</span> Mayowa Adediran</li>
+                <li><span className='font-bold'>Account Number:</span> 0009854049</li>
               </ul>
             </div>
           </div>
