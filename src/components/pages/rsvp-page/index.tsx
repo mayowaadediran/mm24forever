@@ -16,7 +16,7 @@ const RSVPPage = () => {
             Please let us know if you plan to attend our special day.
           </h3>
           <p className='font-montaga text-base font-medium text-primary'>Toyin - 0802 318 0107</p>
-          <p className='font-montaga text-base font-medium text-primary'>Fisayo - 0802 318 0107</p>
+          <p className='font-montaga text-base font-medium text-primary'>Fisayo - 0708 823 6524</p>
         </div>
         {/* <div className=''>
           <div className='inline-block min-w-[200px]'>
