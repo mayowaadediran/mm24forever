@@ -12,7 +12,7 @@ const PageHead = ({ title, description }: PageHeadProps) => {
         {title}
       </h1>
       <div className='text-center mt-10 lg:w-[70%] my-0 mx-auto'>
-        <h2 className={`font-montaga text-lg font-bold lg:text-xl text-primary`}>
+        <h2 className={`font-montaga text-lg font-medium lg:text-xl text-primary`}>
           {description}
         </h2>
       </div>

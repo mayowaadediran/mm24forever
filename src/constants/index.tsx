@@ -7,6 +7,10 @@ export const navLinks = [
     title: "Home"
   },
   {
+    url: "/itinerary",
+    title: "Itinerary"
+  },
+  {
     url: "/gift-registry",
     title: "Gift Registry"
   },
