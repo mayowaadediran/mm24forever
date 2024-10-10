@@ -5,17 +5,23 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/layout/**/*.{js,ts,jsx,tsx,mdx}"
+    "./src/layout/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/constant/**/*.{js,ts,jsx,tsx,mdx}"
   ],
   theme: {
     extend: {
       container: {
-      center: true,
-      padding: "2rem",
+        center: true,
+        padding: {
+           DEFAULT: '1rem',
+          sm: '2rem',
+          lg: '4rem',
+          xl: '5rem',
+          '2xl': '6rem',
+        }
       },
       colors: {
         primary: "#481349",
-
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
