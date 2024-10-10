@@ -28,11 +28,15 @@ const GiftRegistry = () => {
               </Link>
             </div>
             <div>
-              <h3 className={`font-montaga font-bold text-lg text-white mb-2`}>Honeymoon fund</h3>
-              <p className={`font-montaga text-white text-[12px] md:text-base  mb-6`}>If you would like, a contribution to our honeymoon fund would be very much appreciated!</p>
-              <Button onClick={() => console.log("hi")}>
-                Contribute
-              </Button>
+              <h3 className={`font-montaga font-bold text-lg text-white mb-2`}>Monetary gifts</h3>
+              <p className={`font-montaga text-white text-[12px] md:text-base mb-6`}>
+                If you would like, a contribution to our honeymoon fund would be very much appreciated!
+              </p>
+              <ul className={`font-montaga text-white text-[12px] md:text-base mb-6`}>
+                <li>Bank: GTBank</li>
+                <li>Account Name: Mayowa Adediran</li>
+                <li>Account Number: 0009854049</li>
+              </ul>
             </div>
           </div>
         </div>
