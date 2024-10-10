@@ -100,17 +100,17 @@ const Nav = () => {
             <motion.div
               variants={topVariants}
               animate={open ? "opened" : "closed"}
-              className="w-10 h-1 bg-primary rounded origin-left"
+              className="w-10 h-0.5 bg-primary rounded origin-left"
             ></motion.div>
             <motion.div
               variants={centerVariants}
               animate={open ? "opened" : "closed"}
-              className="w-10 h-1 bg-primary rounded"
+              className="w-10 h-0.5 bg-primary rounded"
             ></motion.div>
             <motion.div
               variants={bottomVariants}
               animate={open ? "opened" : "closed"}
-              className="w-10 h-1 bg-primary rounded origin-left"
+              className="w-10 h-0.5 bg-primary rounded origin-left"
             ></motion.div>
           </button>
           {open && (
