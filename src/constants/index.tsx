@@ -7,6 +7,18 @@ export const navLinks = [
     title: "Home"
   },
   {
+    url: "/our-story",
+    title: "Our Story"
+  },
+  {
+    url: "/gallery",
+    title: "Gallery"
+  },
+  {
+    url: "/itinerary",
+    title: "Itinerary"
+  },
+  {
     url: "/gift-registry",
     title: "Gift Registry"
   },
@@ -48,7 +60,5 @@ export const layout = {
 };
 
 
-export const textStyles = {
 
-
-}
+export const images = [""]

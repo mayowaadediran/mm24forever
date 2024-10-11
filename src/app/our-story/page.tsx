@@ -1,10 +1,13 @@
+import PageHead from '@/components/page-head'
 import React from 'react'
 
 
-const page = () => {
+const OurStory = () => {
   return (
-    <div>page</div>
+    <div>
+      <PageHead title='Our Story' />
+    </div>
   )
 }
 
-export default page
+export default OurStory

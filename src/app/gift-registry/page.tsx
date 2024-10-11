@@ -13,7 +13,7 @@ const GiftRegistry = () => {
     <div className="min-h-screen container">
       <PageHead
         title='Gifts/Registry'
-        description='We&apos;re so thankful that you were all able to make it to our big day. The greatest gift to us is you being there on our special day.'
+
       />
       <div className='flex flex-col lg:flex-row w-full pb-9'>
         <div className='w-[80%] lg:w-[40%] my-0 mx-auto flex-col content-center z-20'>

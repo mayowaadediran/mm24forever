@@ -2,10 +2,10 @@
 
 import Image from 'next/image';
 import Countdown from 'react-countdown';
-import HomeImage from '../../../../public/assets/img/9S2A2665-Recovered.jpg'
 import { useInView, motion } from 'framer-motion';
 import { useRef } from 'react';
 import { renderer } from '@/components/counter';
+import Link from 'next/link';
 
 
 const HomePage = () => {
@@ -14,7 +14,7 @@ const HomePage = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <div className="min-h-screen pt-4 md:pt-4 pb-20 md:pb-10 lg:flex lg:justify-between container">
+    <div className="min-h-screen pt-4 md:pt-4 pb-20 md:pb-10 lg:flex lg:justify-between lg:gap-3 container">
       <motion.div
         initial={{ opacity: '0' }}
         animate={isInView ? {
@@ -46,10 +46,14 @@ const HomePage = () => {
             intervalDelay={0}
           />
         </motion.div>
-        {/* <div className='flex gap-3 justify-between max-w-[20%] my-0 mx-auto'>
-          <Link href={"rsvp"} className='font-montaga text-primary underline text-x'>RSVP</Link>
-          <Link href={"gifts"} className='font-montaga text-primary underline text-x'>GIFTS</Link>
-        </div> */}
+        <div className='flex justify-center gap-3'>
+          <Link href={"rsvp"} className='font-montaga text-primary underline text-x'>
+            RSVP
+          </Link>
+          <Link href={"gifts"} className='font-montaga text-primary underline text-x'>
+            GIFTS
+          </Link>
+        </div>
       </motion.div>
       <div className='lg:w-[50%] flex justify-center items-center'>
         <motion.div className='lg:w-[600px] lg:h-[600px]'
@@ -57,8 +61,9 @@ const HomePage = () => {
           animate={isInView ? { opacity: 1 } : {}}
         >
           <Image
-            src={HomeImage}
-
+            src={"https://res.cloudinary.com/dt6nqktyo/image/upload/v1728594457/9S2A2251-Recovered_ln76of.jpg"}
+            width={500}
+            height={300}
             style={{
               borderRadius: "10px",
               verticalAlign: "middle",
@@ -67,6 +72,7 @@ const HomePage = () => {
               objectFit: "cover"
             }}
             alt=''
+            priority={true}
           />
         </motion.div>
       </div>
