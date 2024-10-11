@@ -7,16 +7,8 @@ export const navLinks = [
     title: "Home"
   },
   {
-    url: "/our-story",
-    title: "Our Story"
-  },
-  {
     url: "/gallery",
     title: "Gallery"
-  },
-  {
-    url: "/itinerary",
-    title: "Itinerary"
   },
   {
     url: "/gift-registry",

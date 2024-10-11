@@ -50,7 +50,7 @@ const HomePage = () => {
           <Link href={"rsvp"} className='font-montaga text-primary underline text-x'>
             RSVP
           </Link>
-          <Link href={"gifts"} className='font-montaga text-primary underline text-x'>
+          <Link href={"gift-registry"} className='font-montaga text-primary underline text-x'>
             GIFTS
           </Link>
         </div>
