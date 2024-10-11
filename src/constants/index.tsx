@@ -7,6 +7,14 @@ export const navLinks = [
     title: "Home"
   },
   {
+    url: "/our-story",
+    title: "Our Story"
+  },
+  {
+    url: "/gallery",
+    title: "Gallery"
+  },
+  {
     url: "/itinerary",
     title: "Itinerary"
   },
@@ -52,7 +60,4 @@ export const layout = {
 };
 
 
-export const textStyles = {
 
-
-}
