@@ -2,7 +2,6 @@
 
 import Image from 'next/image';
 import Countdown from 'react-countdown';
-import HomeImage from '../../../../public/assets/img/9S2A2665-Recovered.jpg'
 import { useInView, motion } from 'framer-motion';
 import { useRef } from 'react';
 import { renderer } from '@/components/counter';

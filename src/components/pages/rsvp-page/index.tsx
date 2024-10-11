@@ -12,7 +12,7 @@ const RSVPPage = () => {
       <div className=''>
         <div className='mb-20'>
           <h3 className='font-montaga text-[24px] lg:text-cl text-primary mb-6'>
-            Please let us know if you plan to attend our special day. We're really excited to see you!
+            Please let us know if you plan to attend our special day. We&apos;`re really excited to see you!
           </h3>
           <div>
             <h1>RSVP</h1>
