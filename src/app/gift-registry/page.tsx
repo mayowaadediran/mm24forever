@@ -34,6 +34,11 @@ const GiftRegistry = () => {
               </p>
               <ul className={`font-montaga text-white text-[12px] md:text-base mb-6`}>
                 <li><span className='font-bold'>Bank:</span> GTBank</li>
+                <li><span className='font-bold'>Account Name:</span> Mosimiloluwa Oladiran</li>
+                <li><span className='font-bold'>Account Number:</span> 0855178467</li>
+              </ul>
+              <ul className={`font-montaga text-white text-[12px] md:text-base mb-6`}>
+                <li><span className='font-bold'>Bank:</span> GTBank</li>
                 <li><span className='font-bold'>Account Name:</span> Mayowa Adediran</li>
                 <li><span className='font-bold'>Account Number:</span> 0009854049</li>
               </ul>
