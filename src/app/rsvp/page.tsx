@@ -1,4 +1,4 @@
-import RSVPPage from '@/components/pages/rsvp-page'
+import RSVPPage from '@/pages/rsvp-page'
 import React from 'react'
 
 

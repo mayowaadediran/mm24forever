@@ -2,6 +2,7 @@ import PageHead from '@/components/page-head'
 import Image from 'next/image'
 import React from 'react'
 
+
 const Gallery = () => {
   return (
     <div className='container'>
@@ -11,10 +12,12 @@ const Gallery = () => {
           <Image
             src={"https://res.cloudinary.com/dt6nqktyo/image/upload/v1728634750/9S2A2426-Recovered-min_he33t9.jpg"}
             alt=''
+            width={1000}
+            height={1000}
             className='h-full w-full'
           />
         </div>
-        <div>
+        {/* <div>
           <Image
             src={"https://res.cloudinary.com/dt6nqktyo/image/upload/v1728634751/9S2A2665-Recovered-min_u90inp.jpg"}
             alt=''
@@ -61,7 +64,7 @@ const Gallery = () => {
         <Image
           src={"https://res.cloudinary.com/dt6nqktyo/image/upload/v1728634749/9S2A2251-Recovered-min_d7ngfn.jpg"}
           alt=''
-        />
+        /> */}
 
       </div>
     </div>
