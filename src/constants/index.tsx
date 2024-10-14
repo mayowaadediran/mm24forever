@@ -15,6 +15,10 @@ export const navLinks = [
     title: "Gift Registry"
   },
   {
+    url: "/itinerary",
+    title: "Itinerary"
+  },
+  {
     url: "/rsvp",
     title: "RSVP"
   },
