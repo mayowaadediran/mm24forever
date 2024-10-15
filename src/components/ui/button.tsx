@@ -15,7 +15,7 @@ const Button = ({ onClick, children }: ButtonProps) => {
   return (
     <button
       onClick={onClick}
-      className='text-white p-2 font-montaga text-[12px] border'
+      className='text-montaga__primary p-2 text-[12px] border-primary border'
 
     >
       {children}
