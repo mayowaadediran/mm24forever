@@ -43,5 +43,10 @@ export const itineraryDetailsDayTwo = [
     time: "11:00am",
     details: "Promises to be a breathtaking celebration of love and culture. Set against a backdrop of vibrant colors, the couple will don beautifully crafted attire, adorned with intricate patterns and stunning beadwork that reflect their heritage."
   },
+  {
+    title: "Reception - Forest Heritage Garden",
+    time: "1:00pm",
+    details: "Promises to be a breathtaking celebration of love and culture. Set against a backdrop of vibrant colors, the couple will don beautifully crafted attire, adorned with intricate patterns and stunning beadwork that reflect their heritage."
+  },
 
 ]
