@@ -1,10 +1,9 @@
 "use client"
 
 import Button from '@/components/ui/button'
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import HomeImage from '../../../public/assets/img/9S2A2328-Recovered.jpg'
+
 import PageHead from '@/components/page-head'
 
 
@@ -33,32 +32,16 @@ const GiftRegistry = () => {
                 If you would like, a contribution to our honeymoon fund would be very much appreciated!
               </p>
               <ul className={`font-montaga text-white text-[12px] md:text-base mb-6`}>
-                <li><span className='font-bold'>Bank:</span> GTBank</li>
-                <li><span className='font-bold'>Account Name:</span> Mosimiloluwa Oladiran</li>
-                <li><span className='font-bold'>Account Number:</span> 0855178467</li>
-              </ul>
-              <ul className={`font-montaga text-white text-[12px] md:text-base mb-6`}>
-                <li><span className='font-bold'>Bank:</span> GTBank</li>
+                <li><span className='font-bold'>Bank:</span> Kudabank</li>
                 <li><span className='font-bold'>Account Name:</span> Mayowa Adediran</li>
-                <li><span className='font-bold'>Account Number:</span> 0009854049</li>
+                <li><span className='font-bold'>Account Number:</span> </li>
               </ul>
             </div>
           </div>
         </div>
         <div className='lg:w-[60%] flex justify-center items-center'>
           <div className='lg:w-[100%] md:h-[600px] '>
-            <Image
-              src={HomeImage}
-              style={{
-                borderRadius: "10px",
-                verticalAlign: "middle",
-                width: "100%",
-                height: '100%',
-                objectFit: "cover",
 
-              }}
-              alt=''
-            />
           </div>
         </div>
 
