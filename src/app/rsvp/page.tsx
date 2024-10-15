@@ -48,7 +48,6 @@ const RSVPPage = () => {
 
           </div>
         </div>
-
       </div>
     </div>
   )

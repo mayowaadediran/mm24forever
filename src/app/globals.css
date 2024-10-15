@@ -26,3 +26,10 @@ body {
     text-wrap: balance;
   }
 }
+
+
+@layer components {
+  .text-montaga__primary {
+    @apply font-montaga text-primary
+  }
+}
