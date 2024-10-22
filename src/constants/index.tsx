@@ -22,7 +22,7 @@ export const navLinks = [
 ]
 
 
-export const images = [""]
+export const imageGallery = ["https://res.cloudinary.com/dt6nqktyo/image/upload/v1729201268/IMG_0483-min_qr2miw.jpg", "https://res.cloudinary.com/dt6nqktyo/image/upload/v1729201267/IMG_0437-min_wzlvle.jpg", "https://res.cloudinary.com/dt6nqktyo/image/upload/v1729201266/IMG_0254-min_c5funu.jpg", "https://res.cloudinary.com/dt6nqktyo/image/upload/v1729201266/IMG_0286-min_fr8kfv.jpg", "https://res.cloudinary.com/dt6nqktyo/image/upload/v1729201266/IMG_0179-min_wgkiqb.jpg", "https://res.cloudinary.com/dt6nqktyo/image/upload/v1729201266/IMG_0205-min_xvfjbc.jpg", "https://res.cloudinary.com/dt6nqktyo/image/upload/v1728634752/9S2A2604-Recovered-min_fkl4qw.jpg", "https://res.cloudinary.com/dt6nqktyo/image/upload/v1728634751/9S2A2665-Recovered-min_u90inp.jpg", "https://res.cloudinary.com/dt6nqktyo/image/upload/v1728634751/9S2A2551-Recovered-min_xsbh7o.jpg", "https://res.cloudinary.com/dt6nqktyo/image/upload/v1728634750/9S2A2530-Recovered-min_z91qxp.jpg", "https://res.cloudinary.com/dt6nqktyo/image/upload/v1728634750/9S2A2426-Recovered-min_he33t9.jpg", "https://res.cloudinary.com/dt6nqktyo/image/upload/v1728634749/9S2A2330-Recovered-min_kaul0k.jpg", "https://res.cloudinary.com/dt6nqktyo/image/upload/v1728634749/9S2A2251-Recovered-min_d7ngfn.jpg", "https://res.cloudinary.com/dt6nqktyo/image/upload/v1728634749/9S2A2053-Recovered-min_pmdivh.jpg", "https://res.cloudinary.com/dt6nqktyo/image/upload/v1728634749/9S2A2328-Recovered-min_uhur2s.jpg", "https://res.cloudinary.com/dt6nqktyo/image/upload/v1728634749/9S2A2039-Recovered-min_cs4gvm.jpg", "https://res.cloudinary.com/dt6nqktyo/image/upload/v1728602348/9S2A2328-Recovered_w91p5v.jpg"]
 
 export const itineraryDetailsDayOne = [
   {
