@@ -78,7 +78,6 @@ const Nav = () => {
 
   return (
     <nav className='container pt-3'>
-
       <div className='h-full flex justify-between items-center'>
         <Image
           src={Logo}
