@@ -1,10 +1,9 @@
 "use client"
 
 import Image from 'next/image';
-import Countdown from 'react-countdown';
+
 import { useInView, motion } from 'framer-motion';
 import { useRef } from 'react';
-import { renderer } from '@/components/counter';
 import Link from 'next/link';
 
 
@@ -28,25 +27,15 @@ const HomePage = () => {
         ref={ref}
       >
         <motion.div
-          className='text-center'
+          className='text-center mb-10'
           initial={{ opacity: '0' }}
           animate={isInView ? { opacity: 1 } : {}}
         >
-          <p className='font-montaga text-xl text-primary'>Please join us to celebrate</p>
-          <h1 className='font-sans text-5xl text-extrabold text-primary'> Mosimiloluwa & Mayowa</h1>
+          <h1 className='font-sans text-5xl text-extrabold text-primary mb-5'> Mosimiloluwa & Mayowa</h1>
           <p className='font-montaga text-primary'>October 24, 2024 - Ibadan, Nigeria</p>
         </motion.div>
-        <motion.div
-          initial={{ opacity: '0' }}
-          animate={isInView ? { opacity: 1 } : {}}
-        >
-          <Countdown
-            renderer={renderer}
-            date={"2024-10-24T18:30:00+0500"}
-            intervalDelay={0}
-          />
-        </motion.div>
-        <div className='flex justify-center gap-3'>
+
+        <div className='flex justify-center gap-3 '>
           <Link href={"rsvp"} className='font-montaga text-primary underline text-x'>
             RSVP
           </Link>
